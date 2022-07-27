@@ -1,0 +1,47 @@
+/*I know by doing this exercice that i need to be more precise and organised. 
+For example : I can set up even before writing my HTML some classes that i know 
+will be use for sure. like my Font familly, Font height , some colors etc...
+It will be easier for me and my coworker to do some changes. 
+I didn't finished it because i'm doing some test. Using padding instead of margin, 
+trying to train myself a bit. I dont think it will be that hard to finish it*/
+
+* {
+  font-family: "Gill Sans", sans-serif;
+}
+
+.background {
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+}
+
+#mainTittle {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  padding: 200px;
+}
+
+#allContent {
+  margin: 10px 50px 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+h2 {
+  align-items: center;
+  border-top: 1px solid rgba(44, 45, 42, 0.25);
+  font-weight: 200;
+  padding-top: 10px;
+}
+
+li {
+  list-style: "- ";
+}
+
+p {
+  text-align: justify;
+}
+
+img {
+  padding: 50px;
+}
